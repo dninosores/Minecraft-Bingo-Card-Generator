@@ -2,7 +2,7 @@
 
 ![Sample Bingo Card](example.png "Sample Bingo Card")
 
-This program allows you to generate perfectly fair bingo cards from a spreadsheet of prompts to put on the squares of the bingo card.
+This program allows you to generate perfectly fair bingo cards from a spreadsheet of challenges to put on the squares of the bingo card. Each row, column, and diagonal of the card will contain two easy, two medium, and one hard challenge, and will also contain one challenge from each of up to five categories.
 
 In order to add and remove squares from the bingo card, you will need to edit the bingocategories.csv spreadsheet. Each row in this spreadsheet represents a single potential square on the bingo card. The columns of the spreadsheet are:
  #### Category
