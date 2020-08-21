@@ -1,0 +1,66 @@
+category,difficulty,text,image
+exploration,easy,Trade,villager.webp
+exploration,easy,Get 4 wood types,log.webp
+exploration,easy,Get 4 different potted plants,pot.png
+exploration,easy,Get 4 meat types,meat.jpg
+exploration,easy,Find lava lake,LavaCurrent.webp
+exploration,medium,Find magma block,magma.gif
+exploration,medium,Tame dog,Wolf.png
+exploration,medium,Make snow golem,pumpkin.jpg
+exploration,medium,Ride llama,llama.png
+exploration,medium,Go to nether,NetherPortal.webp
+exploration,medium,Fill a level 3 map,Compass.png
+exploration,hard,Nether fortress,brick.jfif
+exploration,hard,Desert temple,sand.png
+exploration,hard,Ride horse,horse.jfif
+exploration,hard,Ocean temple,prism.gif
+Combat,easy,Kill mob with firework,firework.png
+Combat,easy,Make TNT,tnt.png
+Combat,easy,16 rotten flesh,flesh.png
+Combat,easy,Kill mob w/o hitting it,nosword.png
+Combat,easy,Kill mob from 20 blocks away,Bow.webp
+Combat,medium,Kill natural iron golem,golem.png
+Combat,medium,Music disc,disc.png
+Combat,medium,Slime,slime.png
+Combat,medium,Ender pearl,pearl.png
+Combat,medium,Kill witch,Witch.png
+Combat,medium,Kill 5 mobs at once,trapdoor.png
+Combat,hard,Blaze rod,rod.png
+Combat,hard,Return to sender,ghast.webp
+Combat,hard,Grass block,grass.png
+Mining,easy,Iron block,iron.webp
+Mining,easy,Redstone block,redstone.png
+Mining,easy,5 coal blocks,coal.png
+Mining,easy,Cobblestone generator,cobble.png
+Mining,medium,Full iron armor,armor.png
+Mining,medium,Golden apple,gapple.png
+Mining,medium,Lapis block,lapis.png
+Mining,medium,Stack of quartz,quartz.png
+Mining,medium,Jump from build limit to bedrock,feather.webp
+Mining,hard,DIAMONDS!,diamond.png
+Mining,hard,Find mineshaft,cartchest.png
+Mining,hard,Make iron golem,rose.png
+Mining,hard,Get enchanted item,enchant.webp
+Mining,hard,Obsidian,obsidian.png
+Mining,hard,Get from surface to bedrock without mining blocks,nopick.png
+Farming,easy,Breed 2 animals,heart.webp
+Farming,easy,Bake bread,Bread.png
+Farming,easy,Eat beetroot stew,beetstew.png
+Farming,easy,Eat pufferfish,puff.png
+Farming,easy,Get 8 arrows,arrow.webp
+Farming,easy,Grow a tree from sapling,sap.png
+Farming,medium,5 wool colors,shear.png
+Farming,medium,32 wheat,Wheat.png
+Farming,medium,32 carrot,Carrot.png
+Farming,medium,32 beet,beet.png
+Farming,medium,32 potato,Potato.png
+Farming,medium,32 sugar cane,cane.webp
+Farming,medium,Make 2 red and 2 brown giant mushrooms,mushroom.webp
+Farming,medium,Make 3 bookshelves,shelf.png
+Farming,medium,Leather hotpants,legs.png
+Farming,medium,Hatch a chicken from egg,Egg.png
+Farming,hard,Bake 5 cakes,Cake.png
+Farming,hard,Bake 5 pumpkin pies,pie.png
+Farming,hard,Get a stack of melon,melon.png
+Farming,hard,Automatic farm,obs.png
+Combat,hard,Phantom membrane,
