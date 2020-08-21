@@ -9,9 +9,11 @@ from BingoCardModel.Category import Category
 class BingoFileException(Exception):
     pass
 
-# Reads a bingofile with given filename
-# ImageLocation is the complete path up until the last '/' for the directory where images are located
+
 def readBingoFile(filename, imagelocation=""):
+    """Reads a bingofile with given filename
+    ImageLocation is the complete path up until the last '/' for the directory where images are located"""
+
     # Stores all squares in a dictionary of categoryname : square
     squares = dict()
     rownumber = 1

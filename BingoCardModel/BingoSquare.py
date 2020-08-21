@@ -2,11 +2,8 @@ from PIL import Image, ImageDraw
 from BingoCardModel.Utils import AspectScale, DrawText
 
 
-# A BingoSquare.py is an object that contains text and an associated image for
-# Placement on a BingoCard
-
-
 class BingoSquare:
+    """A BingoSquare is an object that contains text and an associated image for placement on a BingoCard"""
     image = None;
     text = "";
     # Percentage of space that border should take up
@@ -21,8 +18,8 @@ class BingoSquare:
     TEXT_HORIZONTAL_SIZE = IMAGE_HORIZONTAL_SIZE
     TEXT_VERTICAL_SIZE = 1 - (BORDER_SIZE * 2) - TEXT_VERTICAL_SPACING - IMAGE_VERTICAL_SIZE
 
-    # Creates new BingoSquare.py with given image filepath and text
     def __init__(self, text, imagepath = None):
+        """Creates new BingoSquare with given image filepath and text"""
         if imagepath is None:
             self.image = Image.new('RGB', (5, 5), (255, 255, 255))
             self.IMAGE_VERTICAL_SIZE = 0.01
@@ -40,8 +37,8 @@ class BingoSquare:
     def __repr__(self):
         return self.text
 
-    # Returns an image representation of BingoSquare.py with given size
     def render(self, size):
+        "Returns an image representation of BingoSquare with given size in pixels"
         image = self.image.copy()
         image = AspectScale(image, size * self.IMAGE_HORIZONTAL_SIZE, size * self.IMAGE_VERTICAL_SIZE)
         imageoffset = ((int) (size/2) - (int) (image.width/2), (int) (size * self.BORDER_SIZE))

@@ -1,21 +1,26 @@
-# Scales image to fit inside a box of given width and height while preserving aspect ratio
+
 from PIL import Image, ImageFont, ImageDraw
 
 
 def AspectScale(image, newwidth, newheight):
+    """Scales image to fit inside a box of given width and height while preserving aspect ratio"""
     if newwidth < newheight:
         scale = newwidth / image.width
     else:
         scale = newheight / image.height
     return image.resize((int(round(image.width * scale)), int(round(image.height * scale))))
 
-# Draws text to transparent image with given width and height
+
 def DrawText(text, width, height):
+    """Draws text to transparent image with given width and height"""
+    
     def getTextHeight(text, fontsize):
+        """Gets height in pixels of given text with given font size."""
         return (text.count('\n') + 1) * ImageFont.truetype("resources/bpdots.squares-bold.otf", fontsize).getsize(text)[1] + \
                0.3 * (text.count('\n')) * ImageFont.truetype("resources/bpdots.squares-bold.otf", fontsize).getsize(text)[1]
 
     def getTextWidth(text, fontsize):
+        """Gets width in pixels of given text with given font size."""
         def width(line):
             return ImageFont.truetype("resources/bpdots.squares-bold.otf", fontsize).getsize(line)[0]
         chunks = text.split('\n')

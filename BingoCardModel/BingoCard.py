@@ -1,4 +1,4 @@
-# Represents a full bingo card that can generate a 5x5 square image using 5 stored categories
+
 from math import ceil
 from random import randrange
 
@@ -6,20 +6,24 @@ from PIL import Image, ImageDraw
 
 
 class BingoCard:
+    """Represents a full bingo card that can generate a 5x5 square image using 5 stored categories"""
     BORDER_SIZE = 0.01
     BORDER_FILL_PERCENTAGE = 0.5
     categories = None
 
-    # Creates bingocard from given list of categories
     def __init__(self, categories):
+        """Creates bingocard from given list of categories"""
         self.categories = categories
 
-    # Generates a square bingo card of given size
+    
     def Generate(self, size, savelocation = None):
+        """Generates a square bingo card of given size and saves image of card to specified URL."""
         print("Generating random category mappings")
         for category in self.categories:
             category.Reset()
 
+        # Category mapping maps each category number to a random and distinct other category number.
+        # This prevents each category from always occupying the same spaces on the card.
         categorymapping = list()
         numcat = len(self.categories)
         if numcat >= 5:
@@ -42,9 +46,9 @@ class BingoCard:
         tilesize = int(ceil(usablesize/5))
         fullsquare = Image.new('RGB', (size, size), (255, 255, 255))
 
-        # Gets a category based on its number from 1 to 5
+       
         def getCategory(number):
-            #return self.categories[number - 1]
+            """Gets a category based on its number from 1 to 5"""
             return self.categories[categorymapping[number - 1]]
 
         print("Picking squares from categories")
