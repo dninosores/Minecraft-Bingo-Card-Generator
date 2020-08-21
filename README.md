@@ -1,4 +1,4 @@
-Welcome to the Bingo Card Generator!
+#Minecraft Bingo Card Generator
 
 This program allows you to generate perfectly fair bingo cards from a spreadsheet of prompts to put on the squares of the bingo card.
 
