@@ -1,5 +1,7 @@
 # Minecraft Bingo Card Generator
 
+![Sample Bingo Card](example.png "Sample Bingo Card")
+
 This program allows you to generate perfectly fair bingo cards from a spreadsheet of prompts to put on the squares of the bingo card.
 
 In order to add and remove squares from the bingo card, you will need to edit the bingocategories.csv spreadsheet. Each row in this spreadsheet represents a single potential square on the bingo card. The columns of the spreadsheet are:
