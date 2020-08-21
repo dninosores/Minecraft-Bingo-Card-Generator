@@ -2,6 +2,10 @@
 
 ![Sample Bingo Card](example.png "Sample Bingo Card")
 
+## What Is Minecraft Bingo?
+Minecraft bingo is a game where you complete tasks in Minecraft in order to mark off squares on your bingo card. The first player to mark off five squares in the same row, column, or diagonal wins!
+
+## How to Use
 This program allows you to generate perfectly fair bingo cards from a spreadsheet of challenges to put on the squares of the bingo card. Each row, column, and diagonal of the card will contain two easy, two medium, and one hard challenge, and will also contain one challenge from each of up to five categories.
 
 In order to add and remove squares from the bingo card, you will need to edit the bingocategories.csv spreadsheet. Each row in this spreadsheet represents a single potential square on the bingo card. The columns of the spreadsheet are:
